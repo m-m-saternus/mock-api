@@ -1,6 +1,5 @@
 {
-  "aps": {
-    "blueprints": {
+  "blueprints": {
       "_": {
         "data": [
           {
@@ -31,5 +30,4 @@
         ]
       }
     }
-  }
 }
