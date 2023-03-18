@@ -7,10 +7,6 @@
             "name": "System Starter",
             "description": "Empty 'system starter' blueprint",
             "repoUrl": "",
-            "tags": [
-              "system",
-              "starter"
-            ],
             "version": "1.0.0"
           },
           {
@@ -18,14 +14,46 @@
             "name": "Polyglot Services",
             "description": "Polyglot services blueprint",
             "repoUrl": "",
-            "tags": [
-              "polyglot",
-              "java",
-              "nodejs",
-              "go",
-              "starter"
-            ],
             "version": "1.0.0"
+          }
+        ],
+        "tags": {
+          "hasMany": "Comment"
+        }
+      }
+    },
+    "Tag" : {
+      "_": {
+        "data": [
+          {
+            "code": "system",
+            "name": "System",
+            "description": "System related blueprints"
+          },
+          {
+            "code": "starter",
+            "name": "Starter",
+            "description": "Starter blueprints"
+          },
+          {
+            "code": "polyglot",
+            "name": "Polyglot",
+            "description": "Polyglot blueprints"
+          },
+          {
+            "code": "java",
+            "name": "Java",
+            "description": "Java blueprints"
+          },
+          {
+            "code": "nodejs",
+            "name": "NodeJS",
+            "description": "NodeJS blueprints"
+          },
+          {
+            "code": "go",
+            "name": "Go",
+            "description": "Go blueprints"
           }
         ]
       }
